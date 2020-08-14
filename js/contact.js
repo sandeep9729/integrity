@@ -10,7 +10,7 @@ $(document).ready(function(){
 
     // validate contactForm form
     $(function() {
-        $('#contactForm').validate({
+        $('#FORMForm').validate({
             rules: {
                 name: {
                     required: true,
@@ -60,8 +60,8 @@ $(document).ready(function(){
                     data: $(form).serialize(),
                     url:"contact_process.php",
                     success: function() {
-                        $('#contactForm :input').attr('disabled', 'disabled');
-                        $('#contactForm').fadeTo( "slow", 1, function() {
+                        $('#FORMForm :input').attr('disabled', 'disabled');
+                        $('#FORMForm').fadeTo( "slow", 1, function() {
                             $(this).find(':input').attr('disabled', 'disabled');
                             $(this).find('label').css('cursor','default');
                             $('#success').fadeIn()
@@ -70,7 +70,7 @@ $(document).ready(function(){
                         })
                     },
                     error: function() {
-                        $('#contactForm').fadeTo( "slow", 1, function() {
+                        $('#FORMForm').fadeTo( "slow", 1, function() {
                             $('#error').fadeIn()
                             $('.modal').modal('hide');
 		                	$('#error').modal('show');
