@@ -1099,7 +1099,7 @@ h3 {
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
-  padding: 25px 35px;
+  padding: 0px 13px;
   position: absolute;
   bottom: -50px;
   z-index: 999;
@@ -1139,7 +1139,7 @@ h3 {
 @media (max-width: 767px) {
   /* line 56, ../../Arafath/CL/january 2020/242. integrity/HTML/scss/_header.scss */
   .header-area .main-header-area .logo img {
-    width: 100px;
+    width: 200px;
   }
 }
 
