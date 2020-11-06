@@ -1,15 +1,14 @@
 .floating-wpp {
-    position: relative !important;
+    /* position: fixed; */
     width: 0%;
     bottom: 15px;
-    left: 250px;
-    top: 190px;
+    left: 15px;
     font-size: 14px;
     transition: bottom 0.2s;
 }
 
 .floating-wpp .floating-wpp-button {
-    position: relative !important;
+    position: relative;
     border-radius: 50%;
     box-shadow: 1px 1px 4px rgba(60, 60, 60, 0.4);
     transition: box-shadow 0.2s;
@@ -19,7 +18,7 @@
 
 .floating-wpp .floating-wpp-button img,
 .floating-wpp .floating-wpp-button svg {
-    position: absolute !important;
+    position: absolute;
     width: 100%;
     height: auto;
     object-fit: cover;
@@ -41,7 +40,7 @@
     /*border: 2px solid white;*/
     border-radius: 6px;
     background-color: #E5DDD5;
-    position: absolute !important;
+    position: absolute;
     overflow: hidden;
     padding: 0;
     box-shadow: 1px 2px 8px rgba(60, 60, 60, 0.25);
@@ -97,7 +96,7 @@
 
 .floating-wpp .floating-wpp-input-message textarea {
     border: 1px solid #ccc;
-    color: black !important;
+    color:black !important ;
     border-radius: 4px;
     box-shadow: none;
     padding: 8px;
